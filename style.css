@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+ background-color: rgb(101, 101, 200);
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.stock-form{
+  width: 850px;
+  max-width: 100%;
+  height: 700px;
+border-radius: 10%;
+ background-color:black;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: flex-start;
+  background-image: url(https://th.bing.com/th/id/R.3ecd4e7066b85009ff81f7dd2b18b743?rik=t%2bX9N72qwSn2ww&riu=http%3a%2f%2fwww.bestyield.net%2fData%2fbestyield%2fupload%2fimage%2fp_2.jpg&ehk=E4fT6xRQ87RIYEEKytEEqjhFrJRDblLIc4lRdDGTQp4%3d&risl=&pid=ImgRaw&r=0);
+  flex-direction: column;
+  background-repeat: no-repeat;
+
+}
+.stock-form h1,h2 {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+}
+label {
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 1px solid;
+  color: white;
+}
+
+input {
+  height: 40px;
+  border: none;
+  font-size: 25px;
+  padding: 2px;
+  background-color:white;
+  width: 50%;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+button {
+  padding: 5px 56px;
+  margin: 1px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  background-color:white;
+  color:black;
+  border: none;
+  font-weight: 500;
+  border: 2px solid var(--offWhite);
+}
+
+#profit,
+#profit_percent {
+    color: green;
+    text-align: center;
+}
+
+#loss,
+#loss_percent {
+    color: red;
+    text-align: center;
+}
+
+.footer {
+  height: 15vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-direction:row;
+  font-size: 1rem;
+
+}
+.social{
+  height: 15vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  flex-direction:row;
+  font-size: 1rem;
+
+}
